@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "compilerPath": "${env:DEVKITARM}/bin/arm-none-eabi-gcc",
+            "includePath": [
+                "${workspaceFolder}/data",
+                "${workspaceFolder}/include",
+                "${env:DEVKITPRO}/libgba/include"
+            ],
+            "defines": []
+        }
+    ],
+    "version": 4
+}
